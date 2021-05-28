@@ -5,5 +5,13 @@ print("My name is David and i am about to really disappoint the teacher\n")
 print("My name is Sam, Sam The Scam of course\n")
 print("My name is Jasper, love is like a fart, if you have to force it, its most likely crap\n")
 print("hi")
-
 print("this is a test of everyone's GIT.")
+
+a = input("Enter a number: ")
+b = input("Enter another number: ")
+
+a = int(a)
+b = int(b)
+
+# print the result
+print(a+b)
