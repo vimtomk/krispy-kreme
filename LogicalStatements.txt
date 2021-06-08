@@ -1,0 +1,30 @@
+LogicalStatements
+
+task EatFood:
+
+get up
+go to kitchen
+
+choose: refrigerator OR pantry
+    if (choice = refrigerator): # If This, Then That:
+        open fridge door
+        if (fridge = 0 OR fridge = "EMPTY" OR fridge = NULL):
+            ....
+        else: 
+            prepare food
+
+    else if (choice = pantry):
+        ... ...
+
+    else if (choice = freezer);
+        ... ...
+
+    else:
+        choice: starve OR eat out
+        if (choice = starve):
+            perish
+            quit program
+
+        else:
+            go to car
+            start car
