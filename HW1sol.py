@@ -5,8 +5,8 @@
 a, b = 0, 2
 
 # While loop that runs through 0->10
-#while a < 11:
-while b == 2:
+while a < 11:
+#while b == 2:
     # Printing output
     print(b**a)
     # Incrementing power
